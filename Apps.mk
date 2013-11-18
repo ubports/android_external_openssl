@@ -7,7 +7,7 @@ LOCAL_MODULE := openssl
 LOCAL_MULTILIB := both
 LOCAL_MODULE_STEM_32 := openssl
 LOCAL_MODULE_STEM_64 := openssl64
-LOCAL_CLANG := true
+#LOCAL_CLANG := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_SHARED_LIBRARIES := libssl libcrypto
 include $(LOCAL_PATH)/Apps-config-target.mk
